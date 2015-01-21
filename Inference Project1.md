@@ -1,7 +1,8 @@
 ---
 title: "Statistical Inference Assigment1"
-output: "pdf_document""
+output: "pdf_document"
 ---
+
 ## Statistical Inference Assigment 1
 
 The exponential distribution can be simulated in R with rexp(n, lambda) where lambda $\lambda$ is the rate parameter. The mean of exponential distribution is $1/\lambda$ and the standard deviation is also $1/\lambda$.
@@ -9,6 +10,10 @@ For this simulation, we set $\lambda=0.2$ and then we investigate the distributi
 
 We are going to do 1000 simulated averages of 40 exponentials.
 
+```r
+library(knitr)
+library(rmarkdown)
+```
 
 ```r
 lambda <- 0.2
