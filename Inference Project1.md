@@ -5,8 +5,8 @@ output: "pdf_document"
 
 ## Statistical Inference Assigment 1
 
-The exponential distribution can be simulated in R with rexp(n, lambda) where lambda $\lambda$ is the rate parameter. The mean of exponential distribution is $1/\lambda$ and the standard deviation is also $1/\lambda$.
-For this simulation, we set $\lambda=0.2$ and then we investigate the distribution of averages of 40 numbers sampled from exponential distribution with $\lambda=0.2$.
+The exponential distribution can be simulated in R with rexp(n, lambda) where lambda $ \lambda $ is the rate parameter. The mean of exponential distribution is $ 1/\lambda $ and the standard deviation is also $ 1/\lambda $.
+For this simulation, we set $ \lambda=0.2 $ and then we investigate the distribution of averages of 40 numbers sampled from exponential distribution with $ \lambda=0.2 $.
 
 We are going to do 1000 simulated averages of 40 exponentials.
 
@@ -53,7 +53,7 @@ legend('topright', c("simulation", "theoretical"), lty = c(1,10), col = c("blue"
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
 
 ### Question 1 - Show where the distribution is centered at and compare it to the theoretical center of the distribution.
-The chart shows that distribution of the mean of 40 exponential(0.2)s is approximately normal. The distribution is centered at 4.9898156 and the theoretical center of the distribution is $\lambda^{-1}$ = 5.
+The chart shows that distribution of the mean of 40 exponential(0.2)s is approximately normal. The distribution is centered at 4.9898156 and the theoretical center of the distribution is $ \lambda^{-1} $ = 5.
 
 ### Question 2 - Show how variable it is and compare it to the theoretical variance of the distribution.
 The variance of sample means is 0.630726 where the theoretical variance of the distribution is $\sigma^2 / n = 1/(\lambda^2 n) = 1/(0.04 \times 40)$ = 0.625.
